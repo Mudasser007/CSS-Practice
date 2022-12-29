@@ -1,0 +1,20 @@
+p {
+  background-color: blue;
+  font-size: larger;
+  font-family: "Times New Roman", Times, serif;
+}
+div {
+  background-color: aqua;
+}
+/* id Selector(#) */
+#uniqueHeading {
+    color: red;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+/* class Selector */
+.centre {
+    text-align: center;
+    color: red;
+}
