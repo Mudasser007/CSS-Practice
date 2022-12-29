@@ -1,0 +1,9 @@
+/* Element Selector */
+h1 {
+    color: yellow;
+}
+
+/* ID Selector */
+#unique-heading {
+    color: red;
+}
