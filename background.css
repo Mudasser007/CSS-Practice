@@ -1,0 +1,18 @@
+body{
+   background-color: aqua;
+   background-image: url("./images/tree.png");
+   background-repeat: no-repeat;
+   background-size: 480px;
+   background-position: right;
+   background-attachment: scroll;
+   
+}
+h1{
+    background-color: blue;
+}
+p{
+    background-color: yellow;
+}
+div{
+    background-color: purple;
+}
