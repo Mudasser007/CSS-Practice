@@ -6,22 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>all Position</title>
     <style>
-      .container {
-        position: relative;
-      }
+            .container {
+              position: relative;
+            }
 
-      .topleft {
-        position: absolute;
-        top: 8px;
-        left: 16px;
-        font-size: 18px;
-      }
+            .topleft {
+              position: absolute;
+              top: 8px;
+              left: 16px;
+              font-size: 38px;
+            }
+            .topright {
+              position: absolute;
+              top: 8px;
+              right: 16px;
+              font-size: 38px;
+            }
+            .bottomleft {
+              position: absolute;
+              bottom: 8px;
+              left: 16px;
+              font-size: 38px;
+            }
+            .bottomright {
+              position: absolute;
+              bottom: 8px;
+              right: 16px;
+              font-size: 38px;
+            }
+            .centre {
+              top: 50%;
+              width: 100%;
+              text-align: center;
+              font-size: 38px;
+            }
+            
 
-      img {
-        width: 100%;
-        height: auto;
-        opacity: 0.3;
-      }
+            img {
+              width: 100%;
+              height:auto;
+              opacity: 0.3;
+            }
     </style>
   </head>
   <body>
@@ -33,6 +58,10 @@
         height="200"
       />
       <div class="topleft">Top Left</div>
+      <div class="topright">Top Right</div>
+      <div class="bottomleft">Bottom Left</div>
+      <div class="bottomright">Bottom Right</div>
+      <div class="Centre">Centre</div>
     </div>
   </body>
 </html>
