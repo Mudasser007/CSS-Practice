@@ -1,68 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>all Position</title>
-    <link rel="stylesheet" href="./all-position.html" />
-    <style>
-            .container {
-              position: relative;
-            }
 
-            .topleft {
-              position: absolute;
-              top: 8px;
-              left: 16px;
-              font-size: 38px;
-            }
-            .topright {
-              position: absolute;
-              top: 8px;
-              right: 16px;
-              font-size: 38px;
-            }
-            .bottomleft {
-              position: absolute;
-              bottom: 8px;
-              left: 16px;
-              font-size: 38px;
-            }
-            .bottomright {
-              position: absolute;
-              bottom: 8px;
-              right: 16px;
-              font-size: 38px;
-            }
-            .centre {
-              top: 50%;
-              width: 100%;
-              text-align: absolute;
-              font-size: 38px;
-            }
-            
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>all Position</title>
+  <link rel="stylesheet" href="./all-position.html" />
+  <style>
+   
+    .container {
+      position: relative;
+    }
 
-            img {
-              width: 100%;
-              height:700px;
-              opacity: 0.3;
-            }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <img
-        src="./images/img_5terre_wide.jpg"
-        alt="Cinque Terre"
-        width="100"
-        height="200"
-      />
-      <div class="topleft">Top Left</div>
-      <div class="topright">Top Right</div>
-      <div class="bottomleft">Bottom Left</div>
-      <div class="bottomright">Bottom Right</div>
-      <div class="Centre">Centre</div>
-    </div>
-  </body>
+    .topleft {
+      position: absolute;
+      top: 8px;
+      left: 16px;
+      font-size: 38px;
+    }
+
+    .topright {
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      font-size: 38px;
+    }
+
+    .bottomleft {
+      position: absolute;
+      bottom: 8px;
+      left: 16px;
+      font-size: 38px;
+    }
+
+    .bottomright {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+      font-size: 38px;
+    }
+    .center {
+      position: absolute;
+    top: 8px;
+    left: 42rem;
+    font-size: 38px;
+    margin-top: 18rem;
+
+
+    }
+
+
+    
+
+    img {
+      width: 100%;
+      height: 700px;
+      opacity: 0.3;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <img src="./images/img_5terre_wide.jpg" alt="Cinque Terre" width="100" height="200" />
+    <div class="topleft">Top Left</div> 
+    <div class="center">Center</div>
+
+    <div class="topright">Top Right</div>
+   
+    <div class="bottomleft">Bottom Left</div>
+    <div class="bottomright">Bottom Right</div>
+    
+  </div>
+</body>
+
 </html>
